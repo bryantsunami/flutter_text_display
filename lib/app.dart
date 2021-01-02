@@ -28,7 +28,7 @@ class _AppState extends State<App> {
             children: <Widget>[
               TextDisplay(_text),
               TextControl(_setText),
-            ].toList(),
+            ],
           ),
         ));
   }

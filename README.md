@@ -2,15 +2,25 @@
 
 A new Flutter project.
 
-## Getting Started
+## Background
 
-This project is a starting point for a Flutter application.
+This app was created for the first assignment under the Flutter & Dart Udemy course by "Maximilian".
 
-A few resources to get you started if this is your first Flutter project:
+The original instructions were as follows: 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```dart
+// 1) Create a new Flutter App (in this project) and output an AppBar and some text
+// below it
+// 2) Add a button which changes the text (to any other text of your choice)
+// 3) Split the app into three widgets: App, TextControl & Text
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Some stretches were made to make the app more interesting. Rather than having just a button that will update the text, I've added a TextField that accepts input text which is used to update the text displayed. The TextField then clears itself.
+
+Some concepts I've practiced/learned include:
+
+- Passing down props through Stateful widgets (which I nixed)
+- Adding padding / margin in different ways with Containers or Padding widgets
+- How to use a `TextField`
+- How to use a `TextEditingController`
+- using methods like `onChange` in a `TextField` (nixed for controller)

@@ -1,20 +1,11 @@
 import 'package:flutter/material.dart';
 
-class TextControl extends StatefulWidget {
-  final Function _setText;
-
-  TextControl(this._setText);
-
-  @override
-  _TextControlState createState() => _TextControlState(_setText);
-}
-
-class _TextControlState extends State<TextControl> {
+class TextControl extends StatelessWidget {
   final fieldText = TextEditingController();
 
   final Function _setText;
 
-  _TextControlState(this._setText);
+  TextControl(this._setText);
 
   void onSubmit() {
     _setText(fieldText.text);
